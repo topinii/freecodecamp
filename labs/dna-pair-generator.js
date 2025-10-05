@@ -19,4 +19,4 @@ function pairElement(str) {
     return arr; // input ATCG, return [["A", "T"], ["T", "A"], ["C", "G"], ["G", "C"]]
 }
 
-pairElement("ATCG")
+pairElement("ATCG");
