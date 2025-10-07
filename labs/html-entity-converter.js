@@ -7,7 +7,7 @@ function convertHTML(str) {
     '"': '&quot;',
     '\'': '&apos;'
   };
-    
+
   // Accepts a string as input
   // Uses a regex pattern /[&<>"']/g to find all instances of the special characters globally
   // </>Replaces each character with its corresponding HTML entity using the htmlEntities object

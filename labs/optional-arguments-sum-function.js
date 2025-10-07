@@ -3,7 +3,7 @@ function addTogether(first, second) {
   function isValidNumber(num) {
     return typeof num === 'number' && !isNaN(num);
   }
-    
+
   // If two arguments are provided
   if (arguments.length === 2) {
     // Check if both arguments are valid numbers
@@ -13,14 +13,14 @@ function addTogether(first, second) {
       return undefined;
     }
   }
-    
+
   // If only one argument is provided
   if (arguments.length === 1) {
     // Check if the first argument is a valid number
     if (!isValidNumber(first)) {
       return undefined;
     }
-        
+
     // Return a function that waits for the second argument
     return function(second) {
       // Check if the second argument is a valid number

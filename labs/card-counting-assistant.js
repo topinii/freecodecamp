@@ -13,7 +13,7 @@ function cc(card) {
   else if (card === 10 || card === 'J' || card === 'Q' || card === 'K' || card === 'A') {
     count--;
   }
-    
+
   // Return count and betting recommendation
   if (count > 0) {
     return count + ' Bet';

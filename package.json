@@ -7,6 +7,6 @@
   },
   "scripts": {
   "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
-}
-
+},
+"type": "module"
 }
