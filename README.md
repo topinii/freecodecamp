@@ -35,7 +35,3 @@ npm run lint
 ```bash
 npx prettier . --write
 ```
-
-### Notes
-- Files are plain JS modules (`"type": "module"` in `package.json`).
-- Keep edits small and run files directly to see output.
