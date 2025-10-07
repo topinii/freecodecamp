@@ -6,8 +6,7 @@ A sandbox for JavaScript practice: challenges, labs, and workshops. Use Node.js 
 - `challenges/`: short algorithm challenges
 - `labs/`: small utilities and practice problems
 - `workshops/`: longer guided exercises (e.g., `library-manager.js`)
-- `eslint.config.js` / `.eslintrc.json`: lint configuration
-- `.prettierrc`: Prettier formatting rules
+- `eslint.config.js`: lint configuration
 - `package.json`: dev tooling
 
 ### Requirements
