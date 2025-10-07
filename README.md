@@ -10,7 +10,7 @@ A sandbox for JavaScript practice: challenges, labs, and workshops. Use Node.js 
 - `package.json`: dev tooling
 
 ### Requirements
-- Node.js (LTS recommended)
+- Node.js
 - npm
 
 ### Setup
