@@ -8,3 +8,5 @@ function getIndexToIns(arr, number) {
   // If no element is found (all elements are smaller), return the length of the array
   return index === -1 ? sortedArr.length : index;
 }
+
+console.log(getIndexToIns([10, 20, 30, 40, 50], 35));
