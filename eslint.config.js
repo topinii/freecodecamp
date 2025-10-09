@@ -1,10 +1,15 @@
 import js from '@eslint/js';
 import prettier from 'eslint-config-prettier';
+import html from 'eslint-plugin-html';
 
 export default [
   js.configs.recommended,
   prettier,
   {
+    files: ['**/*.js'],
+    plugins: {
+      html
+    },
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
@@ -35,6 +40,28 @@ export default [
       'array-bracket-spacing': ['error', 'never'],
       'comma-spacing': ['error', { 'before': false, 'after': true }],
       'space-before-function-paren': ['error', 'never']
+    }
+  },
+  {
+    files: ['**/*.html'],
+    plugins: {
+      html
+    },
+    languageOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+      globals: {
+        console: 'readonly',
+        window: 'readonly',
+        document: 'readonly',
+        navigator: 'readonly'
+      }
+    },
+    rules: {
+      'no-unused-vars': 'warn',
+      'no-console': 'off',
+      'quotes': ['error', 'single'],
+      'semi': ['error', 'always']
     }
   }
 ];

@@ -2,11 +2,12 @@
   "devDependencies": {
     "eslint": "^9.37.0",
     "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-html": "^8.1.3",
     "eslint-plugin-prettier": "^5.5.4",
     "prettier": "^3.6.2"
   },
   "scripts": {
-  "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
-},
-"type": "module"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.html"
+  },
+  "type": "module"
 }
