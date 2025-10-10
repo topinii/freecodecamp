@@ -1,0 +1,35 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  /* The unordered list */
+  .item-list {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  /* List items */
+  .item-list li {
+    margin: 10px 0;
+    font-size: 1.25rem;
+  }
+  
+  /* Heart buttons */
+  .favorite-icon {
+    font-size: 1.25rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* ✅ Required by the test — sets some CSS properties */
+  .filled {
+    color: #d22b2b;
+  }
+  
