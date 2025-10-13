@@ -1,6 +1,6 @@
 // Create the footballTeam object
 const footballTeam = {
-  team: 'FC ChatGPT United',
+  team: 'FC United',
   year: 2025,
   headCoach: 'Alex Rivera',
   players: [
