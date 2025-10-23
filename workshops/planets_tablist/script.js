@@ -3,3 +3,9 @@ const tabs = document.querySelectorAll('[role="tab"]');
 
 // Select all elements with role="tabpanel"
 const panels = document.querySelectorAll('[role="tabpanel"]');
+
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+
+  });
+});
