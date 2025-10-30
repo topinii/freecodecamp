@@ -5,6 +5,8 @@ let currentContent = '';
 
 noteEl.addEventListener('blur', () => {
   const newContent = noteEl.innerHTML;
+
+  currentContent = newContent;
 });
 
 window.addEventListener('DOMContentLoaded', () => {
