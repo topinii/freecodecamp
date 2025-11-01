@@ -6,6 +6,8 @@ let currentContent = '';
 noteEl.addEventListener('blur', () => {
   const newContent = noteEl.innerHTML;
 
+  if (currentContent === newContent) return;
+
   currentContent = newContent;
 
   console.log(currentContent);
